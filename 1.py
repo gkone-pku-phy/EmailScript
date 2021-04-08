@@ -95,8 +95,8 @@ def get_content(msg):
     return content
 
 def login():
-    email='2000011307@stu.pku.edu.cn'
-    password='ygy7487gky2002'
+    email='XXXXXXXXX@stu.pku.edu.cn'
+    password='password'
     conn = imaplib.IMAP4_SSL("imaphz.qiye.163.com", 993)
     conn.login(email,password)
     INBOX = conn.select("INBOX")
